@@ -1,15 +1,15 @@
 {
-    "name": "speed",
+    "name": "ᔆ ᴾ ᴱ ᴱ ᴰ ™ 𝓼",
     "description": "بوت تجميع نقاط",
     "stack": "container",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/512px-Telegram_logo.svg.png",
-    "repository": "speed",
+    "logo": "https://github.com/ttahaa1/img/blob/main/wallpaperflare-cropped.jpg",
+    "repository": "ᔆ ᴾ ᴱ ᴱ ᴰ ™ 𝓼",
     "keywords": [
         "python",
         "chatbot",
         "telegrambot"
     ],
-    "website": "speed",
+    "website": "ᔆ ᴾ ᴱ ᴱ ᴰ ™ 𝓼",
     "env": {
         "API_ID": {
             "description": "ايبي ايدي",
