@@ -1,15 +1,15 @@
 {
-    "name": "🔱 𝐙𝐄 🔱",
+    "name": "speed",
     "description": "بوت تجميع نقاط",
     "stack": "container",
-    "logo": "https://graph.org/file/5bc8daaefa9f7979cc8b7.jpg",
-    "repository": "https://github.com/modymesourceze/collect",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/512px-Telegram_logo.svg.png",
+    "repository": "speed",
     "keywords": [
         "python",
         "chatbot",
         "telegrambot"
     ],
-    "website": "https://github.com/modymesourceze/collect",
+    "website": "speed",
     "env": {
         "API_ID": {
             "description": "ايبي ايدي",
