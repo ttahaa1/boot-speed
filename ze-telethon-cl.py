@@ -134,7 +134,7 @@ async def start(event):
 async def lista(event):
     if event.sender_id == DEVELOPER_ID:
         buttons = [
-            [Button.inline('< 🔱 𝐙𝐄 🔱 >', 'ze')],
+            [Button.inline('< ⚡️ ᔆ ᴾ ᴱ ᴱ ᴰ ™ 𝓼 ⚡️ >', 'sp')],
             [Button.inline('∘ اضف رقم ∘', 'addnum'), Button.inline('∘ حذف رقم ∘', 'delnum')],
             [Button.inline('∘ عدد الحسابات ∘', 'numacc')],
             [Button.inline('∘ فحص الحسابات ∘', 'tstacc'), Button.inline('∘ فلود الانضمام ∘', 'tstflood')],
@@ -161,12 +161,11 @@ async def handler(event):
 @bot.on(events.CallbackQuery)
 async def handler(event):
     data = event.data.decode('utf-8')
-    if data == 'ze':
-        await bot.send_message(OWNER_ID, f"""**∘ بوت زد إي لتجميع النقاط واوامر اخرى 
-
-∘ مطور ومبرمج البوت مودي الهيبه - @elhyba
-
-∘ اصدار البوت = 4 Version شبه منقح**""")
+    if data == 'sp':
+        await bot.send_message(OWNER_ID, f"""**∘ ∘ بوت تجميع وتحكم في الحسابات 
+∘ تعديل البوت 
+∘ ᔆ ᴾ ᴱ ᴱ ᴰ ™ 𝓼  @l_s_I_I
+∘ اصدار البوت = 4 Version **""")
 
 
 
