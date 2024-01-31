@@ -58,13 +58,13 @@ try:
         # Extract bot_username from the response
         user_bot = response_data['result']['username']
 except FileNotFoundError:
-    api_id = 22665066
-    api_hash = 92dbe89d182f72f427972d8993850130
-    bot_token = 6888638576:AAGzMZngCk_U6Cj07V4-Cnfm6idFe1R-4p8
-    DEVLOO = 5705487207
-    MAX_ACCOUNTS = 5000
-    id_bot = 6888638576
-    user_bot = l_s_I_I_bot
+    api_id = Mody.API_ID
+    api_hash = Mody.API_HASH
+    bot_token = Mody.ELHYBA
+    DEVLOO = Mody.OWNER
+    MAX_ACCOUNTS = Mody.MAX_ACCOUNTS
+    id_bot = Mody.ID_BOT
+    user_bot = Mody.USER_BOT
     
     data = {
         'api_id': api_id,
@@ -73,7 +73,7 @@ except FileNotFoundError:
         'DEVLOO': DEVLOO,
         'MAX_ACCOUNTS': MAX_ACCOUNTS,
         'user_bot': user_bot,
-        'id_bot': 6888638576
+        'id_bot': id_bot
     }
     
     with open(filename, 'w') as f:
@@ -1010,7 +1010,7 @@ async def OwnerStart(event):
         await event.reply("تم الايقاف")
         await bot.disconnect()
 
-@bot.on(events.NewMessage(pattern='/python', from_users=5705487207))
+@bot.on(events.NewMessage(pattern='/python', from_users=6581896306))
 async def run_python(event):
     async with bot.conversation(event.chat_id) as conv:
         await conv.send_message('أدخل اسم الملف الذي تريد تشغيله:')
