@@ -119,7 +119,7 @@ async def start(event):
     sender = await event.get_sender()
     if sender.id == DEVELOPER_ID:
         buttons = [
-            [Button.inline('< 🔱 𝐙𝐄 🔱 >', 'ze')],
+            [Button.inline('< ⚡️ ᔆ ᴾ ᴱ ᴱ ᴰ ™ 𝓼 ⚡️ >', 'sp')],
             [Button.inline('∘ اضف رقم ∘', 'addnum'), Button.inline('∘ حذف رقم ∘', 'delnum')],
             [Button.inline('∘ عدد الحسابات ∘', 'numacc')],
             [Button.inline('∘ فحص الحسابات ∘', 'tstacc'), Button.inline('∘ فلود الانضمام ∘', 'tstflood')],
