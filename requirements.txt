@@ -2,14 +2,4 @@ telebot
 telethon-session-sqlalchemy
 pyfiglet
 requests
-DateTime
-gitpython
-aiohttp
-aiofiles
-beautifulsoup4
-wheel
-setuptools
-speedtest-cli
-httpx[http2]
-pyrogram
-user_agent
+random
