@@ -1,4 +1,4 @@
-telethon
+telebot
 telethon-session-sqlalchemy
 pyfiglet
 requests
