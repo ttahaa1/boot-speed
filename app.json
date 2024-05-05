@@ -1,50 +1,15 @@
 {
-    "name": "ᔆ ᴾ ᴱ ᴱ ᴰ ™ 𝓼",
+    "name": "collection",
     "description": "بوت تجميع نقاط",
     "stack": "container",
-    "logo": "https://i.pinimg.com/originals/c8/ab/65/c8ab659a5d4657910c1fad38b34d171b.jpg",
-    "repository": "ᔆ ᴾ ᴱ ᴱ ᴰ ™ 𝓼",
+    "logo": "https://telegra.ph/file/bd0fde82d09f7681afc99.jpg",
+    "repository": "https://github.com/modymesourceze/t",
     "keywords": [
         "python",
         "chatbot",
         "telegrambot"
     ],
-    "website": "ᔆ ᴾ ᴱ ᴱ ᴰ ™ 𝓼",
+    "website": "https://github.com/modymesourceze/t",
     "env": {
-        "API_ID": {
-            "description": "ايبي ايدي",
-            "value": "",
-            "required": true
-        },
-        "API_HASH": {
-            "description": "ايبي هاش",
-            "value": "",
-            "required": true
-        },
-        "OWNER": {
-            "description": "ايـدي الـمـطور",
-            "value": "",
-            "required": true
-        },
-        "ELHYBA": {
-            "description": "توكن البوت",
-            "value": "",
-            "required": true
-        },
-        "USER_BOT": {
-            "description": "يوزر البوت بدون ـ@ـ",
-            "value": "",
-            "required": true
-        },
-        "ID_BOT": {
-            "description": "ايدي البوت",
-            "value": "",
-            "required": true
-        },
-        "MAX_ACCOUNTS": {
-            "description": "عدد الحسابات",
-            "value": "",
-            "required": true
     }
-  }
-} 
+}
