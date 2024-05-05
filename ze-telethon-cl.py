@@ -2,7 +2,7 @@
 import telebot
 from telebot import types
 import random
-bot = telebot.TeleBot("7089038343:AAFAQhRICHA0DbD7Lu3FbdfuQ2Shq0G_fDs") 
+bot = telebot.TeleBot("6715582424:AAEOQHeZi5RzsobRCFW4Jx7d3-T_bank2bo") 
 
 donkey = []
 mute = []
